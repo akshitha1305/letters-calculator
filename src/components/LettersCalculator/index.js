@@ -31,7 +31,7 @@ class LetterCalculator extends Component {
             id="input-id"
             value={searchInput}
             className="input-element"
-            type="search"
+            type="text"
             placeholder="Enter the phrase"
             onChange={this.onChangeText}
           />
